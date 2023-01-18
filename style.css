@@ -1,0 +1,140 @@
+.image{
+	text-align:  center;
+	padding-top: 120px;
+	letter-spacing: 8px;
+	margin-bottom: -80px;
+}
+.form-control{
+	width: 900px;
+	height: 115px;
+	font-size: 35px;
+	display: block;
+	margin-bottom: 35px;
+	margin-top: 40px;
+	border-width: 2px;
+	border-color: #b6b6b6;
+	background: #F5F6F8;
+	margin-left: 35px;
+	border-radius: 10px;
+	
+}
+
+::placeholder{
+	color: #747474;
+}
+.btn-primary{
+	width: 900px;
+	height: 115px;
+	border: 0;
+	margin-left: 39px;
+	color: #fff;
+	background: #1878F3;
+	margin-top: 10px;
+	border-radius: 10px;
+	font-size: 60px;
+	margin-bottom: 30px;
+}
+
+.wrapper a{
+	color: #306DBE;
+	font-size: 40px;
+	margin-left: 325px;
+	top: -600px;
+}
+
+.or:before{
+	position: absolute;
+	content: '';
+	width: 350px;
+	height: 4px;
+	background: #b6b6b6;
+	right: 570px;
+	margin-top: 30px;
+	transform: translateY(-50%);
+	border-radius: 50px;
+}
+.or:after{
+	position: absolute;
+	content: '';
+	width: 370px;
+	height: 4px;
+	background: #b6b6b6;
+	margin-left: 20px;
+	margin-top: 30px;
+	transform: translateY(-50%);
+	border-radius: 50px;
+}
+.or{
+	font-size: 50px;
+	text-align: center;
+	margin-top: 20px;
+	color: grey;
+
+}
+.my-button{
+	text-align: center;
+	margin-top: 33px;
+	margin-left: 265px;
+	width: 300 px;
+	font-size: 52px;
+	background-color: #00A400;
+	color: #fff;
+	border-radius: 8px;
+}
+p{
+	text-align: center;
+	font-size: 40px;
+	margin-top: 50px;
+	margin-left: 35px;
+	color: #9F9F9F
+}
+.link1 a{
+	text-decoration: none;
+	font-size: 39px;
+	margin-left:250px;
+	display: block;
+	margin-top:  400px;
+}
+
+.link2 a{
+	text-decoration: none;
+	font-size: 39px;
+	margin-left:250px;
+	
+}
+.link3 a{
+	text-decoration: none;
+	font-size: 39px;
+	margin-left:250px;
+}
+.link4 a{
+	text-decoration: none;
+	font-size: 39px;
+	margin-left: 670px;
+}
+.link5 a{
+	text-decoration: none;
+	color: black
+	font: bold;
+	font-size: 39px;
+	margin-left: 670px;
+}
+.link6 a{
+	text-decoration: none;
+	font-size: 39px;
+	margin-left: 670px;
+}
+td{
+	vertical-align: right;
+	text-align: right;
+	font-size: 35px;
+}
+
+a{
+	text-decoration: none;
+	
+}
+table{
+	margin-top: 500px;
+	margin-left: 145px;
+}

